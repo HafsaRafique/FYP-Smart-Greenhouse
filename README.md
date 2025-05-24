@@ -1,16 +1,54 @@
-# app
+# Smart Greenhouse
 
-A new Flutter project.
+A Final Year Project that uses AI for automated plant health monitoring and yield prediction in greenhouse environments. The system is designed to assist farmers and researchers by identifying diseases early and estimating plant productivity using deep learning and machine learning models.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Project Summary
 
-A few resources to get you started if this is your first Flutter project:
+Traditional greenhouse farming relies heavily on manual inspection, which is labor-intensive and error-prone. This project introduces a smart AI-driven system that:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Detects diseases in **tomato**, **chilli**, and **lettuce** plants using CNNs and Vision Transformers.
+- Predicts crop yield using hybrid models, XGBoost, and stacked ensemble learning.
+- Provides an interactive **Flutter-based mobile app** for disease diagnosis and yield estimation.
+- Deploys model APIs using **Flask**, **Docker**, and **Azure Cloud** for seamless integration.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Key Features
+
+- Image-based disease detection
+- Yield prediction using environmental data
+- Trained on public datasets (Kaggle & OpenData Pakistan)
+- User-friendly Flutter frontend
+- Flask-based REST APIs deployed on Azure
+- Offline login using Hive DB
+
+---
+
+## Tech Stack
+
+| Component         | Technologies |
+|------------------|--------------|
+| Disease Detection | CNN, AlexNet, ViT |
+| Yield Prediction  | XGBoost, CNN-LSTM, CNN-DNN |
+| Web APIs          | Flask, Docker, Azure Container Instance |
+| Frontend App      | Flutter, Hive (local DB), ImagePicker |
+| Tools & Services  | Python, Postman, Colab, GitHub, Kaggle |
+
+---
+
+## Models Used
+
+| Task                  | Model Used                  |
+|-----------------------|-----------------------------|
+| Tomato Disease        | AlexNet                     |
+| Chilli Disease        | CNN                         |
+| Lettuce Disease       | Hybrid Vision Transformer   |
+| Tomato Yield          | XGBoost                     |
+| Lettuce Yield         | XGBoost                     |
+| Chilli Yield          | Stacked Ensemble            |
+
+---
+
+
