@@ -51,4 +51,5 @@ Traditional greenhouse farming relies heavily on manual inspection, which is lab
 
 ---
 
-
+## Notes
+The models are hosted on Azure Cloud, although the container is usually stopped. Models can be provided on request.
